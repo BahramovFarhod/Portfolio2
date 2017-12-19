@@ -1,0 +1,20 @@
+@media only screen and (max-width : 768px) {
+ /*Once 767 width reached, hide normal nav and display icon nav*/
+ #navigation{
+ display: none;
+ }
+
+.navbar-header {
+ display: inline
+}
+
+
+/*Using floats on header and right classes help them stay in the right place on screen resize*/
+.navbar-header {
+ display: inline-block;
+ float: left;
+ }
+ 
+ .navbar-right{
+ float: right;
+ }
